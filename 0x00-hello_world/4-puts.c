@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * main: This is the entry oint of our program.
+ * main - print the string in the put function
  *
  * Description: using the main function
  * this program prints "Programming is like building a multilingual puzzle
