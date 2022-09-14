@@ -1,17 +1,17 @@
 #include "main.h"
 /**
- * main - entrance point
- * Description: prints a function followed by new line
+ * main - entry point
+ * Description: prints a function followed by a new line
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
-	char s [] = "_putchar\n"
+	char s [] = "_putchar";
 	int i = 0;
 
-	while (s[i] != '\0')
+	while (s [i] != '\0')
 	{
-		_putchar(s[i]);
+		putchar(s [i] );
 		i++;
 	}
 	return (0);
