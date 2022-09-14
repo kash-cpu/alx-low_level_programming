@@ -11,7 +11,7 @@ void print_alphabet(void)
 	for(lowercase_alphabet = 'a'; lowercase_alphabet <= 'z'; lowercase_alphabet++)
 	{
 		_putchar(lowercase_alphabet);
-		_putchar('\n');
+		return (0);
 	}
-	return (0);
+_putchar('\n');
 }
