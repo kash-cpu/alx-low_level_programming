@@ -4,7 +4,7 @@
  * Description: prints the alphabets in lowercase followed by new line
  * Return: Always 0 (Success)
  */
-int main (void)
+void print_alphabet(void)
 {
 	char lowercase_alphabet;
 
