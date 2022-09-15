@@ -1,19 +1,28 @@
 #include "main.h"
 
 /**
- * print_line - prints a line
+ * print_diagonal - diagonal lines made of backslashes
  * @n: carrier variable
- * Return: 0
+ * Return: void
  */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
-	int a = 0;
+	int i = 0, ii;
 
-	while (a < n && n > 0)
+	while (i < n && n > 0)
 	{
-		_putchar('_');
-		a++;
+		ii = 0;
+		while (ii < i)
+		{
+			_putchar(' ');
+			ii++;
+		}
+
+		_putchar('\\');
+		_putchar('\n');
+		i++;
 	}
-	_putchar('\n');
+	if (i == 0)
+		_putchar('\n');
 }
