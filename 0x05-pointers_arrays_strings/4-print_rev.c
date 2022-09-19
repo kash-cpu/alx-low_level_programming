@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
@@ -8,18 +10,11 @@
 
 void print_rev(char *s)
 {
-	int i;
+	int length = strlen(s);
 
-	while (s[i] != '\0')
+	while(length--)
 	{
-		i++;
-	}
-
-	i--;
-
-	while (s[i] != '\0')
-	{
-		_putchar(s[i--]);
+		_putchar(*(s + length));
 	}
 	_putchar('\n');
 }
