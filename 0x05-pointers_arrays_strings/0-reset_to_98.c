@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entrance point
- * Description: reset_to_98 - a function that updates the reference of a pointer
+ * reset_to_98 -> a function to update the reference of a pointer
  * @n: pointer n to be updated
- * Return: Always 0 (Success)
+ * Return: Always 0 (Successful)
  */
 
 void reset_to_98(int *n)
