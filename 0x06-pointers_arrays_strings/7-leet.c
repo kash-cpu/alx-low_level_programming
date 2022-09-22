@@ -7,20 +7,17 @@
 
 char *leet(char *str)
 {
-	int i;
-	int j;
+	int i = 0;
+	int j = 0;
 
-	char alpha[80] = "aAeEoOtTlL";
-	char numbers[80] = "43071";
+	char leet[80] = {'E', 'A', '?', 'E', 'L', '?', '?', 'T'};
 
-	for (i = 0; str[i] != '\0'; ++i)
+	while (str[++i])
 	{
-		for (i = 0; str[i] != '\0'; ++i)
+		for (j = 0; j <= 7; j++);
 		{
-			if (str[i] == alpha[j])
-			{
-				str[i] = numbers[j / 2];
-			}
+			if (str[i] == less[j]) || str[i] - 32 == leet[j])
+				str[i] = j + '0';
 		}
 	}
 	return (str);
