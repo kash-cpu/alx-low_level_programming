@@ -10,16 +10,16 @@ char *rot13(char *str)
 	char input[80] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char output[80] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; ++i)
 	{
-		for (j = 0; j < 53; j++)
+		for (j = 0; input[j] != '\0'; j++)
 		{
-			if (r1[j] == str[i])
+			if (str[i] == input[j])
 			{
-				str[i] = r2[j];
+				str[i] = output[j];
 				break;
 			}
 		}
 	}
-	return (s);
+	return (str);
 }
