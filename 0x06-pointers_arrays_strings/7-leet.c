@@ -10,13 +10,13 @@ char *leet(char *str)
 	int i = 0;
 	int j = 0;
 
-	char leet[80] = {'E', 'A', '?', 'E', 'L', '?', '?', 'T'};
+	char leet[80] = {'o', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
 	while (str[++i])
 	{
 		for (j = 0; j <= 7; j++);
 		{
-			if (str[i] == less[j]) || str[i] - 32 == leet[j])
+			if (str[i] == less[j] || str[i] - 32 == leet[j])
 				str[i] = j + '0';
 		}
 	}
