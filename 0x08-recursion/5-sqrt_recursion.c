@@ -22,7 +22,7 @@ int myfunc(int n, int result)
 }
 
 /**
- * int _sqrt_recursion - natural square root of a number
+ * _sqrt_recursion - natural square root of a number
  * @n: int argument
  * Return: int
  */

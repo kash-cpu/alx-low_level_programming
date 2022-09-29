@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * prime_helper - Finds prime numbers
+ * prime_func - Finds prime numbers
  * @n: int argument
  * @d: int argument
  * Return: sqaure root
