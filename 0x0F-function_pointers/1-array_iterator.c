@@ -1,6 +1,3 @@
-#include "function_pointers.h"
-#include <stdio.h>
-
 /**
  * array_iterator - executes func as a parameter on each array elem.
  * @array: int pointer
