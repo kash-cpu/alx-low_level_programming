@@ -2,7 +2,9 @@
 
 /**
 * free_listint_safe - Frees a listint_t list
+*
 * @h: listint_t double pointer
+*
 * Return: size_t
 */
 
